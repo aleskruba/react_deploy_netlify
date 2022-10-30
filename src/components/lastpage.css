@@ -1,0 +1,59 @@
+.level{
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    height: fit-content;
+}
+
+.levelpageResult{
+
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 2px black;
+   color: #FF0000;
+    margin: 20px;
+
+  
+}
+.levelpageResult2{
+    background: linear-gradient(to bottom, #000 25%, #FF0000 , #FFCC00 80% );
+
+}
+
+.levelpageResult3{
+
+    position: relative;
+    margin-left: 200px;
+    color: black;
+}
+
+.levelpageNewStart{
+
+    position: absolute;
+    left: 900px;
+     top: 0;
+}
+
+.buttonStartAgain{
+    border: none;
+    font-size: 20px;
+    height: 35px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.wrongAnswers{
+
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    color: blue;
+
+}
+
+

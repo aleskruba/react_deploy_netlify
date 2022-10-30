@@ -1,0 +1,76 @@
+
+.start{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+	background: linear-gradient(to bottom, #000 25%, #FF0000 , #FFCC00 80% );
+    font-family: 'Montserrat', sans-serif;
+}
+
+.RightSIde{
+    margin-top: 5%;
+    margin-left: 70%;
+    color: #FFCC00;
+}
+.box {
+    margin-top: 140px;
+    align-content: center;
+    justify-content: center;
+ }
+
+.TopLeftCorner{
+    margin-left: 250px;
+    left:15px;
+    color: #FFCC00;
+
+}
+
+  .startInput{
+    margin-left: 250px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+
+  .startButton{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color:  #FFCC00;
+    padding: 7px 10px;
+    font-weight: 200;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.startButton:hover{
+    transition: all .4s ease;
+-webkit-transition: all .4s ease;
+    background: #f7c603;
+  
+  }
+
+.Flags{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+.austria{
+    width: 200px;
+}
+
+.swiss{
+    width: 170px;
+}

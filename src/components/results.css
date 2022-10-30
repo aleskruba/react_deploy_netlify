@@ -1,0 +1,132 @@
+
+  .results{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  
+  
+  }
+
+  .question {
+    width: 80%;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-bottom: 30px;
+  
+  }
+
+  
+
+
+.answers{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+  
+  }
+  
+  @keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  .newanswer{
+    margin: -7px;
+    position: absolute;
+    width: 41%;
+    height: 25%;
+    text-align: center;
+    animation: color 9s infinite linear;
+    background: #33CCCC;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 300;
+    font-size: 25px;
+   
+  }
+  
+  .answer:hover,
+  .answer.active{
+    background: rgb(88, 57, 57)
+  
+  }
+  .answer.correct{
+    background: green;
+  }
+  
+  .answer.wrong{
+    background: rgb(180, 55, 0);
+  }
+  
+  
+  
+  .answer.shadow{
+    background-color: black;
+    }
+  
+    .answer.corrected{
+      animation-name: example;
+      animation-duration: 3s;
+      background-color: green;
+  
+    }
+    
+    @keyframes example {
+      0%   {background-color: #5d655c ;}
+      25%  {background-color: #30542d ;}
+      100% {background-color: green;}
+    }
+  
+  
+  
+  .answer{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 300;
+    margin: 0 10px 20px 10px;
+    cursor: pointer;
+  
+  
+  }
+  
+  .bottom{
+    position: absolute;
+    width: 1000px;
+    bottom: 20px;
+  
+  }
+
+  .resized{
+  
+    animation: rotate 3s ;
+    color: #33CC36;
+    width: 200px;
+    height: 200px;
+    font-size: large;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(-0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
