@@ -179,7 +179,7 @@ export const data = [
     {
       id: 8,
       level:'B1',
-      question: "Tom is am Wochenende 18 geworden. Somit ist er jetzt ........",
+      question: "Tom ist am Wochenende 18 geworden. Somit ist er jetzt ........",
       explanation: 'wenn du 18 bist dann bist du volljährig.  Das gegenteil davon ist minderjährig ',
       correctAnswer:"VOLLJÄHRIG",
         answers: [
@@ -256,7 +256,7 @@ export const data = [
 {
   id: 11,
   level:'B2',
-  question: "Hier darf man nich rauchen. Das rauchen ist hier strengstens ........",
+  question: "Hier darf man nicht rauchen. Das rauchen ist hier strengstens ........",
   explanation: `VERSAGEN - scheitern oder Misserfolg haben ,
                 ABSAGEN  - eien Termin absagen, 
                 SAGEN - sprechen `,
