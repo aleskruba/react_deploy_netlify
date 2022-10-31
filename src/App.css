@@ -145,7 +145,7 @@
   .readyButton{
     position: absolute;
     top:450px;
-    justify-content:center;
+    margin-left:450px;
     width: 35%;
     height: 30px;
     border: none;
