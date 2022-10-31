@@ -152,7 +152,7 @@ const newGamehandler = () => {
     
         {!go && <>
          
-        <button className='readyButton' >Wenn du beriet bist {<span style={{color:'red',fontSize:'23px'}}> {username}  &nbsp;&nbsp;</span>} <span className='blickText' onClick={startFuntion}> Klick hier </span> </button> 
+        <button className='readyButton' >Wenn du bereit bist {<span style={{color:'red',fontSize:'23px'}}> {username}  &nbsp;&nbsp;</span>} <span className='blickText' onClick={startFuntion}> Klick hier </span> </button> 
      </> }             
 
         </div>         }   
